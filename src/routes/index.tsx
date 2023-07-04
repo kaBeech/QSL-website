@@ -14,9 +14,9 @@ export default component$(() => {
         target="_blank"
         rel="noopener noreferrer"
         class="link button"
-        href="mailto:contact@qsl.art"
+        href="mailto:contact@qsl.dance"
       >
-        <h4 class="margin2">contact@qsl.art</h4>
+        <h4 class="margin2">contact@qsl.dance</h4>
       </a>
     </div>
   );
