@@ -3,9 +3,14 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 
 export default component$(() => {
   return (
-    <>
-      <h1>QSL</h1>
-    </>
+    <div class="flex column alignCenter justifyCenter height100">
+      <img
+        width={328}
+        height={328}
+        src="QSL-symbol.webp"
+        alt="The QSL symbol"
+      />
+    </div>
   );
 });
 

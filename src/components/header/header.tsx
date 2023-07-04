@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import ImgQslLogo from "~/media/QSL_logo.webp?jsx";
+import ImgQSLSymbol from "~/media/QSL-symbol.webp?jsx";
 
 import styles from "./header.module.css";
 import { Link } from "@builder.io/qwik-city";
@@ -10,7 +10,7 @@ export default component$(() => {
       <div class={["container", styles.wrapper]}>
         <div class={styles.logo}>
           <a href="/" title="qwik">
-            <ImgQslLogo />
+            <ImgQSLSymbol />
           </a>
         </div>
         <Link href="contact">Contact</Link>
