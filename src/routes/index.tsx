@@ -3,9 +3,22 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 
 export default component$(() => {
   return (
-    <>
-      <h1>QSL</h1>
-    </>
+    <div class="flex column alignCenter justifyCenter height100">
+      <img
+        width={420}
+        height={420}
+        src="QSL-symbol.webp"
+        alt="The QSL symbol"
+      />
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        class="link button"
+        href="mailto:contact@qsl.dance"
+      >
+        <h4 class="margin2">contact@qsl.dance</h4>
+      </a>
+    </div>
   );
 });
 
