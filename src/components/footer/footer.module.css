@@ -1,0 +1,17 @@
+.anchor {
+  display: block;
+  font-size: 0.8rem;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.anchor span {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .anchor span {
+    display: inline !important;
+  }
+}

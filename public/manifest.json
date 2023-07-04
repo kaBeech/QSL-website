@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "QSL's Website",
+  "short_name": "QSL's Website",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "QSL's Website"
+}
